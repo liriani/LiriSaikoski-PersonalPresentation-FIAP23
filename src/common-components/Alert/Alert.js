@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {
-    BorderRadiuses,
+    BorderRadius,
     Colors,
     FontSizes,
     Spaces,
@@ -27,7 +27,7 @@ export const Alert = styled.div`
 	justify-content: center;
 	width: 100%;
 	height: 100%;
-	border-radius: ${BorderRadiuses.ONE};
+	border-radius: ${BorderRadius.ONE};
 	color: ${(props) => colorMapper[props.type].color};
 	background-color: ${(props) => colorMapper[props.type].backgroundColor};
 	padding: ${(props) => props.small && Spaces.ONE} ${Spaces.ONE_HALF};
