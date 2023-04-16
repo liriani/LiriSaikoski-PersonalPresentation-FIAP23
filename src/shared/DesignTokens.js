@@ -4,6 +4,8 @@ export const Colors = {
     GRAY_LIGHT: '#F9F9F9',
     GRAY_MEDIUM: '#9C9C9C',
     GRAY_DARK: '#676767',
+    GREEN: '#1BB55C',
+    RED: '#E74C3C',
 };
 
 export const FontFamilies = {
